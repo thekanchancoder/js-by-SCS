@@ -308,3 +308,113 @@ function getGrade(marks){
 
 
 // +++++++++++++++  LOOP +++++++++++++++++++++
+
+// for,while, do-while
+// break,continue
+// for-of,forEach 
+
+// while loop => kaha se jana h and kab rukna and kaise jana h 
+// for loop => kaha se jana h and  kaha tk jana h kaise jana h
+
+// for(start; end; change){
+
+// }
+
+
+// for(let i=5; i<100; i++){
+// console.log(i)
+// }
+
+
+// start
+// while(end){
+//     code
+// change
+// }
+
+// let i=5
+// while(i<33){
+//     console.log(i);
+// i++;
+// }
+
+//   do while loop  +++++++++++
+
+// let i=1;
+// do{
+//     console.log(i);
+//     i++;
+// } while(i<=5);
+
+// for(let i=7; i<55; i++){
+// if(i===35){
+// break;
+// }
+// }
+
+// for(let a=44; a<200; a++){
+// if(a===65){
+// continue;
+// }
+// }
+
+
+
+// Ques-1 print numbers from 100 to 50 using a while loop
+
+// for(let i =100;i>49;i--){
+// console.log(i)
+// }
+
+// let i=100
+// while (i>44){
+// console.log(i)
+// i--
+// }
+
+// QUEST-3 print all even numbers from 1 to 100 using a for loop
+// for(let i =1; i<=100; i++){
+// if(i%2===0){
+// console.log(i)
+// }
+// }
+
+// QUEST-4 print all odd numbers from 1 to 100 using a while loop
+
+// for(let i =1; i<=100; i++){
+// if(i%2!==0){
+// console.log(i)
+// }
+// }
+
+// let i=1
+// while(i<=100){
+// if(i%2!==0){
+// console.log(i)
+// }
+// i++
+// }
+
+
+// QUEST- 5  print the multiplication table of 5
+// for(let i =1; i<10; i++){
+// console.log(`5 * ${i} =${5*i}`)
+// }
+
+// QUEST- find the sum of numbers from 1 to 100
+// let sum=0
+// for(let i =1; i<101; i++){
+// sum=sum+i
+// }
+// console.log(sum)
+
+// QUEST-7 print all numbers between 1 to 50 that are divisible by 3.
+
+// for( let a=1; a<51; a++){
+// if(a%3===0){
+// console.log(a)
+// }
+// }
+
+// ++++++++++++++++++++ FUNCTIONS ++++++++++++++++++++++++
+
