@@ -418,3 +418,45 @@ function getGrade(marks){
 
 // ++++++++++++++++++++ FUNCTIONS ++++++++++++++++++++++++
 
+// function aime(){}
+// let abc =()=>{}
+// let xyz=function(){}
+
+// rest  ... => jb ye function ke parameter mai use hota h to ye baki ke sare parameter space mai lge to bo rest h
+// spread  ... => agr bo array ya object h to bo spread hoga
+
+// Xxa=> 
+//     function abcd (...value1){
+// console.log(value1)
+// }    yaha use hua h rest operator
+// abcd(1,2,3,4,5,6,7,8,9,10)
+
+// highter order function [HOF]=> bo function hota h jo ki return kre function ya fir accept kre ek function apne parameter mai
+
+// function abcd(value){}
+
+// function xyz(){
+//     return function(){console.log('hello')}
+// }
+// xyz()()
+
+// pure and impure function 
+// pure=> jo bahr ki value ko change nhi krte h 
+// impure=> jo bhr ki value ko change kr de
+
+//  ++++++++++++++++++  CLOSURES  +++++++++++++++++
+// ek fnc jo return kre ek aur fnc aur return hone wala function hamesha use krega parent fnc ka koi variable
+// function(){
+//     let a =23;
+//     return function(){
+// console.log(a)
+//     }
+// }
+
+// +++++++++++++++++++++++++ IIFE +++++++++++
+// (immediately invoked function expression)
+
+// (function (){
+
+// }) () ye iife h
+
