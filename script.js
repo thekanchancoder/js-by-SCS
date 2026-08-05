@@ -460,3 +460,93 @@ function getGrade(marks){
 
 // }) () ye iife h
 
+// +++++++++++++++ ARRAY ++++++++++++++++
+
+// array methods=> PushManager,pop,shift,unshift,splice,slice,reverse,sort,map,filter,reduce,find,every
+// let arr=[1,2,3,4,5,6]
+// arr.push(15) //last mai value ko dalne ke liye
+
+// arr.pop() last se value ko hatane ke liye
+
+// arr.shift() suruaat se value ko hatane ke liye
+
+// arr.unshift(9) suruaat me value ko add krta h
+
+// arr.splice(2,1) beech se value ko hatane ke liye index btao phle or fir kitni value hatani h bo btao
+
+// let abc=[2,4,6,8,10,12,14];
+// let newabc = abc.slice(0,4);  //kaha se hatana h kaha tak hatana h
+// esame main array change nhi hoga bo baisa hi rhega apako new array de dega 
+
+// reverse=> array ko reverse kr deta h
+// ye main array ko change kr deta h
+
+// +++++++++++ sort ++++++++++++
+// sort ek function accept krtea h 
+
+// let xyz=[12,51,6,45,65,11,2,7]
+// let srt= xyz.sort(
+//     function(a,b){
+// return a-b
+//     }
+// ) // ye assending order me kr dega agr b-a kiya hota to disending order kr deta 
+
+
+// ++++++++++++++++ MAP ++++++++++++++++
+// map , filter ,reduce bhi fucnction accept krt
+
+// map tb use krna h jb apako ek new array banana h pichle array ke data ke basic pr
+ 
+// let bcd=[1,2,6,5,3,4,0]
+// let newans=bcd.map(function(value){
+//     return 45;
+// })
+
+// +++++++++++++ FILTER ++++++++++++++++
+// kuch value new array ke andr jayegi return krna jaruri h
+
+// let efg=[44,55,22,33,10,77,45]
+// let fil=efg.filter(function(value){
+//     if(value>45) return true
+// })
+
+// +++++++++++ reduce ++++++++++++
+// eska use single value bnana h 
+
+// let redu=[1,2,1,5,5,4,8]
+// let accu=redu.reduce(function(accumulator,value){
+// return accumulator+2
+// },0)
+
+// ++++++++ find ++++++++++
+
+let are=[77,5,4,4,6,9,8,2]
+// let fid=are.find(function(value){
+//     return value===4
+// })  // yaha bo banda return hoga jiski value 4 hogi bo phla bala 
+
+
+// +++++++++++ some +++++++++
+// let som=are.some(function(value){
+//     return value>9
+// }) // ans - true ya false me ata h 
+
+// some dekhta h ki koi ek value condition ko pass krta h ya nhi
+
+// +++++++++++++++ EVERY +++++++++
+// yah saari value ko dekhta h ki condition paas h ya nhi 
+
+//  let eve=are.every(function(value){
+// return value>1
+// })
+// agr ek bhi banda fail hua to ans- false milega
+
+// ++++++++++++++++++ SPREAD OPERATOR +++++++++++
+// let spr=[44,55,2,6,99,555,44]
+// let spr2=[...spr]  // yaha spread oper. use hua h 
+// yaha copy bn jayegi esase ye hoga agr ap spr2 mai koi change krege to bo spr mai change nhi hoga
+
+// +++++++++++++++ QUESTIONS  +++++++++++++++
+// let fruit =["mango","banana","orange"]
+// console.log(fruit[1])
+
