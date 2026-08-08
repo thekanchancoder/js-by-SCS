@@ -550,3 +550,150 @@ let are=[77,5,4,4,6,9,8,2]
 // let fruit =["mango","banana","orange"]
 // console.log(fruit[1])
 
+// ques=> insert "red" and "blue" at index 1 in this array
+// let yt=["green","yellow"]
+// yt.splice(1,0,"red","blue")
+
+// Q- extract only the middle 3 element from this array
+// let sli=[5,5,9,6,5,3]
+// let newsli=sli.slice(1,4)
+// console.log(newsli)
+
+// sort this array alphabeticlly and then reverse it
+
+// let names=["kanchan","aryan","sachin","kaushal","anjali","sulekha"]
+// let friends=names.sort().reverse()
+// console.log(friends)
+
+// Q- use map() to square each number
+// let mp=[5,6,2,3,8]
+// let mps=mp.map(function(value){
+// return value*2
+// })
+
+// Q- use filter () to keep number greater than 10
+let fit=[8,9,10,22,35,41,2,14,77]
+// let newfit=fit.filter(function(val){
+//     if(val>10) return val
+// })
+
+// ek or tarika
+// let newfit=fit.filter(function(val){ return val>10})
+
+// Q- use reduce() to find the sum of this array
+// let mtc=[20,65,54,33,88]
+// let sum=mtc.reduce(function(acc,val){
+// return acc+val
+// },0)
+
+// Q- use find to get the first number less than 10
+let less=[55,10,20,30,4,1,2,7]
+// let kamvalue=less.find(function(val){
+// if(val<10) return val
+// })
+
+// dusra tarika
+// let newfind=less.find(function(val){
+//     return val<10
+// })
+
+//Q- use some() to check if any student has scored has below 35
+
+let wx=[11,33,56,55,20,32]
+// let scor=wx.some(function(val){
+// return val<35
+// })
+
+// +++++++++++++++++++ OBJECT ++++++++++++++
+// let obj={
+//     name:"kanchan",
+//     age:21,
+//     email:"kanchan@kan.com",
+// };
+// for(let key in obj){
+// console.log(key,obj[key]);  yaha object ki key or value ko access kiya gya h
+// }
+
+// let obj={
+//     name:"kanchan",
+//     age:"21",
+//     address:{
+//         city:"mainpuri"
+//     }
+// }
+// let obj2=JSON.parse(JSON.stringify(obj))
+
+
+// destructure the key "first-name" as a called firstName.
+
+// const user={
+//     "first-name":"kanchan",
+// }
+// let{"first-name":firstName}=user;  // first-name bhr a gya
+
+// yaha variable banaya h firstName ka
+
+
+// +++++++++++++++++ classes  questions ++++++++++++++++
+
+// let age= prompt("user ki age btao")
+// if(age===null){
+// console.log("you cancelled it.");
+
+// }else{
+//     if(age.trim() === ""){
+// console.error("please write something...")
+//     }else{
+//         age=Number(age)
+//         if(isNaN(age)){
+// console.log("please enter a number...");
+
+//         }else{
+//             console.log(`your age is ${age}`);
+            
+//         }
+//     } 
+    
+// }
+
+// Q- allow  only 3 attempt to enter correct password if user gets it right early stop. if not "Account locked"
+
+// let pass="kanchan@121"
+// let attemt=0
+// let accountOpen=false
+
+// let password=prompt("pass. do ")
+// attemt++
+// if(password===pass){
+// accountOpen=true
+// }
+
+// while(password!== pass){
+// if(attemt===3){
+// console.error("account locked");
+// break
+// }
+// let pass=prompt("pass. btao")
+// if(password===pass) accountOpen= true;
+// attemt++
+// }
+// if(accountOpen===true) console.log("account opened");
+
+// let attemt =0
+// let pass="kanchan1234"
+// let userPassword=prompt("password de do ")
+// attemt++
+// while (attemt<3 && pass!== userPassword) {
+//  let userPassword=prompt("password de do ")
+//     attemt++
+// }
+// if (attemt===3 && pass !== userPassword) {
+//     console.error("account locked");
+    
+// }else{
+//     console.log("done");
+    
+// }
+
+
+
