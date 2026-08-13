@@ -696,4 +696,114 @@ let wx=[11,33,56,55,20,32]
 // }
 
 
+// ++++++++++++++ COntinue+++++++++++
+
+// for(let i= 1; i<10; i++){
+// if(i===5) continue;
+// console.log(i);
+
+// }     // yaha 5 print nhi hoga 
+
+
+//++++++++++++ functions Que. ++++++++++++++++++
+
+// function name(parameter aate h ) {
+    
+// }
+// name(arguments yaha aate h)
+
+// function fnt (age,name){
+//     console.log(arguments[1]);
+    
+// }
+// fnt(12,"kanchan")
+
+
+// anonymous function bo function h jiska koi name nhi hota h 
+// Higher order function ek aisa function jo return kre ek or function ko ya bo function accept kre ek or parameter me
+// function abc(){ 
+//     return function(){
+
+//     }
+// } // yaha jo bhr bala function h bo HOF  h
+
+//  ek tarika or h HOF ka +++++++++
+// function xyz(a){
+
+// }
+// xyz(function () {
+    
+// })  ye bhi HOF bn gya h xyz hof h or jo argument me function bheja h bo callback function h
+
+//     +++++++++++++++++ FIRST CLASS FUNCTION  ++++++++++++++++
+
+// jaha hm argument likh skte h baha hm function likh skte h
+// jaise
+
+// function wx (name,age) {
+    
+// }
+// wx(function () {
+    
+// },23)
+
+// ++++++++++++++++PURE AND IMPURE FUNCTION +++++++++++++++
+
+// pure function ek aisa function jo same input and same output de
+// let y=23;
+// function sdf(val) {
+//     console.log(val+2);
+    
+// }
+// sdf(12);
+// sdf(12);
+// sdf(12);
+// sdf(12);  // pure function h ye
+
+
+// let b=22
+// function zx(val) {
+//   b=Math.random()+val;
+//  console.log(b);
+ 
+// }
+// zx(11)  // impure function
+
+
+// +++++++++++++++++++CLOSURE +++++++++++++++++++++
+
+// ek aisa function jo return kre ek or function but returing function jo h bo parent function ka koi variable use kre
+// function abcd() {
+//     let d=23;
+//     return function(){
+//         console.log(d);
+        
+//     }
+// }  // closure hof bhi hote h
+
+//  +++++++++++++++ARRAY DESTRUCTURING++++++++++++++++++
+
+// let arr=[1,2,3,4,5,6,8,7]
+// let [a,b]=arr;
+
+// ++++++++++++ FILTER ++++++++++++
+// let b=[2,0,3,5,6,4,1,2,0,5,4]
+// let b2=b.filter(function(val){
+//     return val<4
+// })
+
+// filter ek nya array bnata h mgr purane array mai koi change nhi krta h
+
+// +++++++++ spred operator++++++++
+// let haha=[44,55,62,2,3,1,5,5]
+// let hahaha=[...haha] // ye h spread ope.
+
+// ++++++ forEach ++++++++++++
+// foreach array pr hi chlta h
+
+// let each=[5,6,5,6,5,3,5]
+// each.forEach(function(val){
+// console.log(val);
+
+// })
 
