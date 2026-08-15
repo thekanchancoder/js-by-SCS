@@ -807,3 +807,61 @@ let wx=[11,33,56,55,20,32]
 
 // })
 
+// QUE.  print the key value 
+// let obj={
+//     name:'kanchan',
+//     age:22,
+//     city:"mainpuri"
+// }
+// for(let yt in obj){
+// console.log(obj[yt]);
+
+// }
+
+// +++++++++++++++++++++++++++++ setTimeout() +++++++++++++++++
+// setTimeout(function(){
+// console.log("you are boy.");
+
+// },2000)
+
+
+// Q- write a highter order function runTwice(fn)that takes another function and executes it two times.
+// function runTwice(fn) {
+//     fn()
+//     fn()
+// }
+// runTwice(function(){
+//     console.log("hello");
+    
+// })
+
+// Q- create one pure function that always return the same output for given input, and one impure function using a global variable.
+// function pure(a,b){
+// console.log(a+b);
+
+// }
+// pure(1,2)
+// pure(1,2)
+
+
+// let i=0
+// function impure(a){
+// i++
+// console.log(a+i);
+
+// }
+// impure(6)
+// impure(6)
+
+// Q- write a function uses object destructuring inside parameters to extract and print name and age.
+
+// function hello({name,age}){
+// console.log(name,age);
+
+// }
+// hello({
+//     name:"kanchan",
+//     age:22,
+// })
+
+// Q- 
