@@ -864,4 +864,46 @@ let wx=[11,33,56,55,20,32]
 //     age:22,
 // })
 
-// Q- 
+// Q- use reduce() to find the total salary from an array of numbers [1000,2000,3000]
+// let salary =[1000,2000,3000]
+// let re=salary.reduce(function(acc,val){
+// return acc+val
+// },0)
+
+// create an array of names and use some () and every() to test a condition (all name longer 3 char)
+let name=["kanchan","kaushal", "om","neha","seema"]
+// let na=name.some(function(val){
+// return val.length>3
+// })
+
+// let nam=name.every(function(val){
+// return val.length>3
+// })
+
+// create an object use and test the behavior of object . freeze() and object.seal() by adding keys.
+
+let user={
+    name:"kanchan",
+    age:"21",
+    email:"kanchan@gmail.com"
+}
+// Object.freeze(user)  // freeze se kisi value ko change nhi kr paoge
+// Object.seal(user) // seal se ap ek new value add nhi kr skte change kr sakte ho
+
+
+// create a nested object (user=>address=>city) and access the city inside it.
+let obj={
+    name:"kanchan",
+    users:{
+        age:22,
+        email:"kanchan@gamil.com",
+        address:{
+            city:"salempur"
+        }
+    }
+}
+
+// let {city}=obj.users.address
+
+
+
