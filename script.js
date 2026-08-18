@@ -905,5 +905,106 @@ let obj={
 
 // let {city}=obj.users.address
 
+let arr=[10, 45, 23, 89, 12] // esame bda number find krna h 
+function biggestNumber(arr){
+    let biggest=arr[0]
+for(let i=0; i<arr.length; i++){
+if(arr[i]>biggest){
+biggest=arr[i]
+}
+}
+return biggest
+}
+
+// console.log (biggestNumber(arr))
+
+let smarr=[10, 45, 23, 89, 12]  // esame sbse chhota number find krna h
+function smallNumber(smarr){
+let smallest = smarr[0]
+for(let i=0; i<smarr.length; i++){
+if(smarr[i]<smallest){
+smallest=smarr[i]
+}
+}
+return smallest
+}
+// console.log(smallNumber(smarr));
 
 
+let Arr = [1, 2, 3, 4, 5, 6, 7, 8]; // even number print kro 
+for(let i=0; i<Arr.length; i++){
+if(Arr[i]%2===0){
+// console.log(Arr[i]);
+
+}
+}
+
+for (let i=0; i<Arr.length; i++){  // odd number print krna h
+if(Arr[i]%2!==0){
+// console.log(Arr[i]);
+}
+}
+
+
+
+let how = [10, 15, 22, 31, 40, 51]; // array me kitne even number h pta krke btao
+let count=0
+for(let i = 0; i<how.length; i++){
+if(how[i]%2===0){
+    count++
+}
+}
+// console.log(count);
+
+let ya = [10, 20, 30, 40, 50]; // find krna h 50 h ya nhi 
+let fnd=false
+for(let i=0; i<ya.length; i++){
+
+if(ya[i]===50){
+fnd=true
+// console.log(ya[i]);
+}
+
+}
+
+
+
+// if(fnd){
+// console.log("50 hai");
+
+// }else{
+//     console.log("50 nhi h");
+    
+// }
+
+
+let aprr = [-5, 10,-30, -2, 20, -8, 30]; // array ke positive number print kro
+let posiN=0
+for(let i=0; i<aprr.length; i++){
+if(aprr[i]>0){
+posiN++
+}
+}
+// console.log(posiN);
+
+let secL = [10, 50, 20, 80, 40]; //Second largest number find karo
+
+let duA = [10, 20, 10, 30, 20, 40]; //  Array me duplicate numbers find karo
+
+let avrg = [10, 20, 30, 40, 50]; // Array ke elements ka average nikalo
+
+
+let largest= -Infinity
+let secLargest= -Infinity
+
+for(let i=0; i<secL.length; i++){
+if(secL[i]>largest){
+secLargest=largest
+largest=secL[i]
+}else if (secL[i]>secLargest && secL[i] !==largest){
+secLargest=secL[i]
+}
+
+
+}
+// console.log(secLargest);
