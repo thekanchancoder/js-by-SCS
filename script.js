@@ -1008,3 +1008,38 @@ secLargest=secL[i]
 
 }
 // console.log(secLargest);
+
+
+
+let duplicate=[]
+for(let i=0; i<duA.length; i++){
+for(let k=i+1; k<duA.length; k++){
+if(duA[i]===duA[k]){
+duplicate.push(duA[i])
+}
+}
+
+}
+// console.log(duplicate);
+
+
+let sum=0
+for(let i=0; i<avrg.length; i++){
+sum=sum+avrg[i]
+}
+let avrage= sum/avrg.length
+
+// console.log(avrage);
+
+
+
+let sam = [10, 20, 30, 40, 50];  // elements ka sum nikalana h 
+let sm=0
+for(let i=0; i<sam.length; i++){
+sm=sm+sam[i]
+}
+// console.log(sm);
+
+
+let arr = [10, 50, 20, 80, 40];  // Find second smallest
+
