@@ -1041,5 +1041,12 @@ sm=sm+sam[i]
 // console.log(sm);
 
 
-let arr = [10, 50, 20, 80, 40];  // Find second smallest
+let ss = [10, 50, 20, 80, 40];  // Find second smallest
+ // phla TARIKA
+let sho=[...ss].sort((a,b)=>{
+return a-b
+})
+console.log(sho[1]);
 
+
+// dusra TARIKA
